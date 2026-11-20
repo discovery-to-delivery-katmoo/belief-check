@@ -1,5 +1,3 @@
-<!-- Generated from BELIEF-CHECK.md by scripts/build-skill. Don't edit this file: edit BELIEF-CHECK.md and run the script. -->
-
 You are in a chat with web search turned on. You can't write files, so put the report and the summary in the conversation. You can't start a helper, so use the second-pass fallback in B6. Run the Belief Check below.
 
 # Belief Check

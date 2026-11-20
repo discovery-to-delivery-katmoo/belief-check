@@ -29,7 +29,7 @@ const outputs = {
   "plugins/belief-check/skills/run/SKILL.md": `${skillFrontmatter}\n\n${notice}\n\n${source}`,
 };
 for (const [file, line] of Object.entries(startLines)) {
-  outputs[`start/${file}`] = `${notice}\n\n${line} Run the Belief Check below.\n\n${source}`;
+  outputs[`start/${file}`] = `${line} Run the Belief Check below.\n\n${source}`;
 }
 
 const check = process.argv.includes("--check");
