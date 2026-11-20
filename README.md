@@ -99,4 +99,4 @@ Each belief ends up Supported, Mixed, Not supported or Not enough evidence, by f
 
 ## Licence
 
-CC BY-NC 4.0. You can use it for free to test your own ideas, including for your business. What you can't do is sell it or offer it as a paid service. You can share and adapt it, with credit. See [LICENSE](LICENSE).
+You can use it for free on your own ideas, including ideas for your business. You can share and adapt it, with credit. What you can't do is sell it or offer it as a paid service. Licence: [CC BY-NC 4.0](LICENSE), with this added permission from Kat Moore for use on your own business ideas.
