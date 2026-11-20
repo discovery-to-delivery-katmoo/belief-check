@@ -1,0 +1,54 @@
+#!/usr/bin/env node
+// Builds every copy of the instructions from BELIEF-CHECK.md, the one source.
+//   scripts/build-skill          write the generated files
+//   scripts/build-skill --check  fail if any generated file is out of date
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const root = join(dirname(fileURLToPath(import.meta.url)), "..");
+const source = readFileSync(join(root, "BELIEF-CHECK.md"), "utf8").trimEnd() + "\n";
+const notice =
+  "<!-- Generated from BELIEF-CHECK.md by scripts/build-skill. Don't edit this file: edit BELIEF-CHECK.md and run the script. -->";
+
+const skillFrontmatter = [
+  "---",
+  "name: run",
+  "description: Belief Check. Tests what you believe about a product idea before you build it. Use when the person asks to run a Belief Check, to research or validate an idea, or to check an assumption. Turns the idea into beliefs that can be proven wrong, researches them with sources and dates, and lays out options without choosing.",
+  "allowed-tools: Read, Write, WebSearch, WebFetch, Agent",
+  "disallowed-tools: Edit, NotebookEdit, Bash",
+  "---",
+].join("\n");
+
+const startLines = {
+  "chat.md":
+    "You are in a chat with web search turned on. You can't write files, so put the report and the summary in the conversation. You can't start a helper, so use the second-pass fallback in B6.",
+};
+
+const outputs = {
+  "plugins/belief-check/skills/run/SKILL.md": `${skillFrontmatter}\n\n${notice}\n\n${source}`,
+};
+for (const [file, line] of Object.entries(startLines)) {
+  outputs[`start/${file}`] = `${notice}\n\n${line} Run the Belief Check below.\n\n${source}`;
+}
+
+const check = process.argv.includes("--check");
+const stale = [];
+for (const [rel, content] of Object.entries(outputs)) {
+  const path = join(root, rel);
+  const current = existsSync(path) ? readFileSync(path, "utf8") : null;
+  if (current === content) continue;
+  if (check) stale.push(rel);
+  else {
+    mkdirSync(dirname(path), { recursive: true });
+    writeFileSync(path, content);
+    console.log(`wrote ${rel}`);
+  }
+}
+if (check) {
+  if (stale.length) {
+    console.error(`Out of date: ${stale.join(", ")}. Run scripts/build-skill.`);
+    process.exit(1);
+  }
+  console.log("All generated files match BELIEF-CHECK.md.");
+}

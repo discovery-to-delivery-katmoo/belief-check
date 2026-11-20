@@ -1,0 +1,14 @@
+{
+  "name": "belief-check",
+  "description": "Belief Check: a free tool that tests what you believe about a product idea before you build it.",
+  "owner": {
+    "name": "Kat Moore"
+  },
+  "plugins": [
+    {
+      "name": "belief-check",
+      "source": "./plugins/belief-check",
+      "description": "Test your idea before you build it. Turns it into beliefs that can be proven wrong, researches them with sources and dates, and lays out options without choosing for you."
+    }
+  ]
+}
