@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.5 (21 Nov 2026)
+
+- The report ends with a pointer to Build Brief, and Build Brief's "Belief Check starter" is recognised as a starting point. README: "Works with Build Brief".
+
 ## 0.1.4 (19 Nov 2026)
 
 After round 3 (translators report rated "Easy to use", dental "Usable with effort"):

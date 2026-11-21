@@ -1,7 +1,7 @@
 {
   "name": "belief-check",
   "displayName": "Belief Check",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Test your idea before you build it. Your AI assistant turns it into beliefs that can be proven wrong, researches each one with sources and dates, and shows what the evidence could mean. It doesn't choose for you.",
   "author": {
     "name": "Kat Moore"
