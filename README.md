@@ -86,6 +86,10 @@ Each belief ends up Supported, Mixed, Not supported or Not enough evidence, by f
 
 [Build Brief](https://github.com/discovery-to-delivery-katmoo/build-brief) turns your idea into a clear plan to build from. The two connect both ways: Build Brief can hand you a ready-made list of guesses to test here, and your Belief Check report can go straight back into Build Brief.
 
+## Part of Discovery to Delivery
+
+Belief Check is one of a set of free tools, one for each step of building a product, from first idea to release. See them all at [kathrynmoore.eu](https://www.kathrynmoore.eu/#products).
+
 ## Privacy
 
 **Your idea** is shared only with the chat tool you use. If you don't want it used to train that tool's AI:
