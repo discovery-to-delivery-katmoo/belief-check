@@ -82,6 +82,8 @@ Every claim says three things:
 
 Each belief ends up Supported, Mixed, Not supported or Not enough evidence, by fixed rules, so it isn't a matter of mood.
 
+See a full example from a test run, an idea for an AI tool that handles dental insurance claims: the [report](examples/dental-claims-report.md) and the [one-page summary](examples/dental-claims-summary.md).
+
 ## Works with Build Brief
 
 [Build Brief](https://github.com/discovery-to-delivery-katmoo/build-brief) turns your idea into a clear plan to build from. The two connect both ways: Build Brief can hand you a ready-made list of guesses to test here, and your Belief Check report can go straight back into Build Brief.
