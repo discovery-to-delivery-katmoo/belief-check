@@ -1,8 +1,10 @@
 {
   "name": "belief-check",
-  "description": "Belief Check: a free tool that tests what you believe about a product idea before you build it.",
   "owner": {
     "name": "Kat Moore"
+  },
+  "metadata": {
+    "description": "Belief Check: a free tool that tests what you believe about a product idea before you build it."
   },
   "plugins": [
     {
