@@ -92,6 +92,8 @@ See a full example from a test run, an idea for an AI tool that handles dental i
 
 Belief Check is one of a set of free tools, one for each step of building a product, from first idea to release. See them all at [kathrynmoore.eu](https://www.kathrynmoore.eu/#products).
 
+If it saved you time or trouble, you can support future tools through [GitHub Sponsors](https://github.com/sponsors/katmoo-works).
+
 ## Privacy
 
 **Your idea** is shared only with the chat tool you use. If you don't want it used to train that tool's AI:
