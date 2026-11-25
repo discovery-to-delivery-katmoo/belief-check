@@ -1,7 +1,7 @@
 ---
 name: run
 description: Belief Check. Tests what you believe about a product idea before you build it. Use when the person asks to run a Belief Check, to research or validate an idea, or to check an assumption. Turns the idea into beliefs that can be proven wrong, researches them with sources and dates, and lays out options without choosing.
-allowed-tools: Read, Write, WebSearch, WebFetch, Agent
+allowed-tools: Read, Grep, Glob
 disallowed-tools: Edit, NotebookEdit, Bash
 ---
 

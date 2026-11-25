@@ -40,7 +40,7 @@ Type each line into Claude Code and press **Enter** after each one:
 /belief-check:run
 ```
 
-The report and summary are saved in a `belief-check` folder in your project.
+The report and summary are saved in a `belief-check` folder in your project. Claude Code asks before it searches the web or saves a file; say yes.
 
 ### What happens next
 
