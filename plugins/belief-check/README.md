@@ -111,4 +111,4 @@ If it saved you time or trouble, you can support future tools through [GitHub Sp
 
 ## Licence
 
-You can use it for free on your own ideas, including ideas for your business. You can share and adapt it, with credit. What you can't do is sell it or offer it as a paid service. Licence: [CC BY-NC 4.0](https://github.com/discovery-to-delivery-katmoo/belief-check/blob/main/LICENSE), with this added permission from Kat Moore for use on your own business ideas.
+You can use it for free on your own ideas and on ideas you help clients with, including as part of paid work. You can share and adapt it, with credit. What you can't do is sell it, or sell checks or reports made with it as your own product or service. Licence: [CC BY-NC 4.0](https://github.com/discovery-to-delivery-katmoo/belief-check/blob/main/LICENSE), with this added permission from Kat Moore.

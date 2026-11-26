@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.6 (26 Nov 2026)
+
+- Clearer licence: free on your own ideas and on ideas you help clients with, including paid work; selling it, or checks made with it, as a product or service is not allowed.
+
 ## 0.1.5 (21 Nov 2026)
 
 - The report ends with a pointer to Build Brief, and Build Brief's "Belief Check starter" is recognised as a starting point. README: "Works with Build Brief".
