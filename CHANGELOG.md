@@ -2,6 +2,7 @@
 
 ## 0.1.6 (26 Nov 2026)
 
+- The version line no longer says "(draft)".
 - Clearer licence: free on your own ideas and on ideas you help clients with, including paid work; selling it, or checks made with it, as a product or service is not allowed.
 
 ## 0.1.5 (21 Nov 2026)
