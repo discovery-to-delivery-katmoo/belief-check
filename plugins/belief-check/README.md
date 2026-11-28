@@ -6,7 +6,7 @@ A free research tool for founders and small teams. You bring a question or a fru
 
 It shows you what the evidence could mean. It doesn't choose for you.
 
-You don't need any research background, and it's free. It runs in your own ChatGPT or Claude account, so it uses that account's normal allowance.
+You don't need any research background, and it's free. It runs in your own AI chat account, so it uses that account's normal allowance.
 
 ## What you need
 
@@ -15,9 +15,9 @@ You don't need any research background, and it's free. It runs in your own ChatG
 
 ## How to use it
 
-You don't need to install anything. You copy one page of instructions into an AI chat that can search the web, such as ChatGPT or Claude, and it guides you from there.
+You don't need to install anything. You copy one page of instructions into your AI chat, and it guides you from there.
 
-A run takes 20 to 40 minutes of the assistant's work. A run does a lot of searching, so a free plan may hit its daily limit partway through. If that happens, wait until the limit resets and type **continue** in the same chat.
+A run takes 20 to 40 minutes. It does a lot of searching, so a free plan may hit its daily limit partway through. If that happens, wait until the limit resets and type **continue** in the same chat.
 
 ### ChatGPT or Claude
 
@@ -59,7 +59,6 @@ The report and summary are saved in a `belief-check` folder in your project. Cla
 If you ask the assistant which option to choose, it will help you think it through, but it won't choose for you.
 
 If something seems wrong or it goes off track, tell it in plain words, for example "that source is about a different country" or "go back to the beliefs, I want to change B2".
-
 
 ## What you get back
 
