@@ -8,6 +8,12 @@ It shows you what the evidence could mean. It doesn't choose for you.
 
 You don't need any research background, and it's free. It runs in your own ChatGPT or Claude account, so it uses that account's normal allowance.
 
+## What you need
+
+- **An idea or a question.** You don't need an app, and you don't need to have picked a tool to build with.
+- **ChatGPT or Claude**, in your browser or their app. "Claude" here means the normal Claude chat at claude.ai. Other AI chats that can search the web may work too, but these two are the ones it's tested with.
+- **Claude Code** is a separate tool for people who build apps in code. It isn't the same as the Claude chat. Use that route only if you already have it.
+
 ## How to use it
 
 You don't need to install anything. You copy one page of instructions into an AI chat that can search the web, such as ChatGPT or Claude, and it guides you from there.
