@@ -11,8 +11,7 @@ You don't need any research background, and it's free. It runs in your own ChatG
 ## What you need
 
 - **An idea or a question.** You don't need an app, and you don't need to have picked a tool to build with.
-- **ChatGPT or Claude**, in your browser or their app. "Claude" here means the normal Claude chat at claude.ai. Other AI chats that can search the web may work too, but these two are the ones it's tested with.
-- **Claude Code** is a separate tool for people who build apps in code. It isn't the same as the Claude chat. Use that route only if you already have it.
+- **One of these AI tools:** ChatGPT, Claude or Claude Code. Pick the one you use below. "Claude" means the Claude chat at claude.ai or in the Claude app. Other AI chats that can search the web may work too, but these are the ones it's tested with.
 
 ## How to use it
 
@@ -20,7 +19,7 @@ You don't need to install anything. You copy one page of instructions into an AI
 
 A run takes 20 to 40 minutes of the assistant's work. A run does a lot of searching, so a free plan may hit its daily limit partway through. If that happens, wait until the limit resets and type **continue** in the same chat.
 
-### In ChatGPT or Claude (easiest)
+### ChatGPT or Claude
 
 1. Open the [Belief Check instructions](https://raw.githubusercontent.com/discovery-to-delivery-katmoo/belief-check/main/start/chat.md). A page of plain text opens.
 2. Copy all of it: press **Ctrl+A**, then **Ctrl+C** (on a Mac, **Cmd+A**, then **Cmd+C**).
@@ -30,9 +29,9 @@ A run takes 20 to 40 minutes of the assistant's work. A run does a lot of search
    - **Claude:** click the **+** at the bottom left of the message box and choose **Web search**, so a tick appears. If there's no such option, Claude already searches on its own.
 5. Click in the message box, paste (**Ctrl+V** or **Cmd+V**) and press **Enter**.
 
-### If you already use Claude Code
+### Claude Code
 
-Type each line into Claude Code and press **Enter** after each one:
+Claude Code is Anthropic's tool for building apps in code. It's separate from the Claude chat. If you use it, type each line into it and press **Enter** after each one:
 
 ```
 /plugin marketplace add discovery-to-delivery-katmoo/belief-check
