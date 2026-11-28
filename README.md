@@ -11,7 +11,7 @@ You don't need any research background, and it's free. It runs in your own ChatG
 ## What you need
 
 - **An idea or a question.** You don't need an app, and you don't need to have picked a tool to build with.
-- **One of these AI tools:** ChatGPT, Claude or Claude Code. Other AI tools haven't been tested. How to use each one is below.
+- **An AI chat.** It's tested with ChatGPT, Claude and Claude Code; how to use each one is below. You can also try any other AI chat, such as Gemini or Copilot, as long as it can search the web: paste the instructions the same way as for ChatGPT.
 
 ## How to use it
 
