@@ -11,7 +11,7 @@ You don't need any research background, and it's free. It runs in your own ChatG
 ## What you need
 
 - **An idea or a question.** You don't need an app, and you don't need to have picked a tool to build with.
-- **One of these AI tools:** ChatGPT, Claude or Claude Code. Pick the one you use below. "Claude" means the Claude chat at claude.ai or in the Claude app. Other AI chats that can search the web may work too, but these are the ones it's tested with.
+- **One of these AI tools:** ChatGPT, Claude or Claude Code. Other AI tools haven't been tested. How to use each one is below.
 
 ## How to use it
 
